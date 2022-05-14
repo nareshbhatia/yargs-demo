@@ -1,0 +1,19 @@
+{
+  "name": "yargs-demo",
+  "description": "Simple demo to show how yargs parses command line arguments",
+  "version": "1.0.0",
+  "author": "Naresh Bhatia",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts react --generator app --appName movie-magic --ssr --port 3000 --workspaces apps --workspaces packages --plugins.dir plugins --plugins.scan"
+  },
+  "dependencies": {
+    "yargs": "^17.5.0"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.10",
+    "prettier": "^2.6.2",
+    "ts-node": "^10.7.0"
+  }
+}
